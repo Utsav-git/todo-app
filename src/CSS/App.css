@@ -74,8 +74,8 @@ form button:hover {
   color: #fff;
   cursor: pointer;
   border: none;
-  padding: 16px;
-  font-size: 16px;
+  padding: 10px;
+  font-size: 15px;
   border-radius: 5px;
 }
 .complete-button {
@@ -87,11 +87,13 @@ form button:hover {
   margin-left: 2px;
 }
 .complete-button:hover {
-  color: rgb(0, 255, 0);
+  color: #fff;
+  background-color: rgb(33, 241, 33);
   font-size: 20px;
 }
 .trash-button:hover {
-  color: rgb(255, 0, 0);
+  background-color: rgb(255, 0, 0);
+  color: #fff;
   font-size: 20px;
 }
 .fa-check,
@@ -100,7 +102,7 @@ form button:hover {
 }
 .completed {
   text-decoration: line-through;
-  opacity: 0.5;
+  opacity: 0.4;
 }
 .fall {
   transform: translateX(-100px);

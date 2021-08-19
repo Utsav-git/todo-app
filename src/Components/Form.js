@@ -10,12 +10,13 @@ const Form = ({ inputTodo, setInputTodo, todos, setTodos }) => {
   //Handle on submit click ↓
   const handleSubmit = (e) => {
     e.preventDefault();
+    // Set the todos using spread operator i.e previous todos + newly added todos
     setTodos([
       ...todos,
       {
         text: inputTodo,
         completed: false,
-        id: Math.random() * 10,
+        id: Math.random() * 100,
       },
     ]);
     setInputTodo("");

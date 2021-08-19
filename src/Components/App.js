@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>Todo List</h1>
+        <h1>TO-DO LIST</h1>
       </header>
       <Form
         inputTodo={inputTodo}
@@ -19,7 +19,7 @@ function App() {
         todos={todos}
         setTodos={setTodos}
       />
-      <TodoList />
+      <TodoList todos={todos} setTodos={setTodos} />
     </div>
   );
 }
