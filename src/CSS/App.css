@@ -143,3 +143,15 @@ select {
   background: #ffff;
   color: #03c6c6;
 }
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* font-size: 25px; */
+}
+.logout {
+  position: absolute;
+  top: 5%;
+  left: 90%;
+}
